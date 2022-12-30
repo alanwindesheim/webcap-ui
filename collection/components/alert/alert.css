@@ -1,0 +1,46 @@
+.box {
+  display: grid;
+  grid-template-columns: 0.18fr 1fr 1fr 0.5fr;
+  border: 1px solid red;
+  border-radius: 1px;
+  min-width: 350px;
+  min-height: 45px;
+}
+.box .color {
+  display: grid;
+  grid-column: 1/2;
+  background-color: #ff4a4a;
+}
+.box .color p {
+  display: grid;
+  justify-content: center;
+  align-self: center;
+  margin: 0;
+}
+.box .text {
+  display: grid;
+  grid-column: 2/5;
+}
+.box .text p {
+  display: grid;
+  justify-self: start;
+  align-self: center;
+  margin: 0px 0px 0px 10px;
+}
+.box .delete {
+  display: grid;
+  grid-column: 5/6;
+  justify-content: end;
+  align-self: start;
+}
+.box .delete .button {
+  border: none;
+  background-color: transparent;
+  color: black;
+  margin: 5px 5px 0px 0px;
+  cursor: pointer;
+}
+
+.close {
+  display: none;
+}

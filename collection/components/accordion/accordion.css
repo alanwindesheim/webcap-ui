@@ -1,0 +1,40 @@
+.accordion {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 0.3fr;
+  border-radius: 2px;
+  min-width: 350px;
+  height: 35px;
+  cursor: pointer;
+  border: 1px solid purple;
+  background-color: white;
+}
+.accordion .label {
+  display: grid;
+  grid-column: 1/4;
+  justify-self: start;
+  align-self: center;
+  padding-left: 10px;
+}
+.accordion .arrow {
+  display: grid;
+  grid-column: 4/5;
+  justify-self: start;
+  align-self: center;
+}
+
+.open {
+  display: grid;
+  min-height: 70px;
+  background-color: #ededed;
+}
+.open p {
+  justify-self: start;
+  align-self: start;
+  padding: 13px 0 0 15px;
+  margin: 0;
+  font-size: 12px;
+}
+
+.close {
+  display: none;
+}

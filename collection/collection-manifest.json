@@ -1,0 +1,15 @@
+{
+  "entries": [
+    "./components/accordion/accordion.js",
+    "./components/alert/alert.js",
+    "./components/button/button.js",
+    "./components/button-mondriaan/button-mondriaan.js"
+  ],
+  "compiler": {
+    "name": "@stencil/core",
+    "version": "2.19.2",
+    "typescriptVersion": "4.7.4"
+  },
+  "collections": [],
+  "bundles": []
+}
