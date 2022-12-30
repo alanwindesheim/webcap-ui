@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html dir="ltr" lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=5.0" />
+    <title>Stencil Component Starter</title>
+    <script type="module" src="/build/capweb.esm.js"></script>
+    <script nomodule src="/build/capweb.js"></script>
+    <link rel="stylesheet" href="/build/capweb.css" />
+    <script></script>
+  </head>
+  <body>
+    <div class="webcomponents">
+      <div>
+        <webcap-button
+          titlebutton="Button"
+          backgroundcolor="yellow"
+          bordercolor="blue"
+          borderradius="4"
+          textcolor="blue"
+          fontsize="13"
+          minheight="25"
+          minwidth="50"
+        ></webcap-button>
+      </div>
+      <div>
+        <webcap-button-mondriaan titlebutton="Button" bordercolor="red" borderwidth="1px" bordercorner="15px" backgroundcolor="white" fontsize="15px"></webcap-button-mondriaan>
+      </div>
+      <div>
+        <webcap-alert
+          alerttext="Alert"
+          textcolor="green"
+          alertboxcolor="green"
+          bordercolor="green"
+          backgroundcolor="white"
+          borderradius="2"
+          deletecolor="black"
+          width="100"
+          height="35"
+        ></webcap-alert>
+      </div>
+      <div>
+        <webcap-accordion
+          labeltext="Informatie collapse"
+          accordiontext="Informatie collapse"
+          width="200"
+          height="40"
+          textcolor="yellow"
+          backgroundcolor="darkblue"
+          bordercolor="yellow"
+          togglecolor="yellow"
+          collapsecolor="darkblue"
+          collapsebg="yellow"
+          collapseheight="80"
+        ></webcap-accordion>
+      </div>
+    </div>
+  </body>
+</html>
